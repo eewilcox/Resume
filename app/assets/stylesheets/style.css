@@ -1,0 +1,270 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  background-color: #232C33;
+  color: #d0cdb0;
+  margin: .8rem;
+}
+
+@media (min-width: 600px) {
+  body {
+    margin: .8rem 10%;
+  }
+}
+
+/*@media (min-width: 1200px) {
+  body {
+    margin: .8rem 18%;
+    max-width: 900px;
+  }
+}*/
+
+h1 {
+  margin: 1.3rem 0 0 0;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2 {
+  color: #DA6973;
+  margin: 0 0 .3rem 0;
+}
+
+h4 {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+h6 {
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: #DA6973;
+  font-weight: normal;
+}
+
+h5 {
+  text-transform: uppercase;
+  margin: 1.3rem 0 0 0;
+  font-size: 1.5em;
+}
+
+.social_media_icons {
+  padding: 1px;
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .social_media_icons {
+    text-align: right;
+    font-size: 1.5rem;
+  }
+}
+
+.social_media_icons li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 1rem 0 0;
+}
+
+@media (min-width: 600px) {
+  .social_media_icons li {
+    margin-left: .3rem;
+  }
+}
+
+.social_media_icons a {
+  color: #888;
+}
+
+.components {
+  background-color: #2b363e;
+  padding: .5rem;
+  position: relative;
+}
+
+h3.elements {
+  background-color: #DA6973;
+  font-weight: bold;
+  padding: .7rem;
+  max-width: 138px;
+  min-width: 115px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  h3.elements {
+    position: relative;
+    left: -8px;
+    min-width: 225px;
+  }
+}
+
+i.fa-user, i.fa-list {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  i.fa-list {
+    padding: .8rem;
+    position: absolute;
+    left: -43.5px;
+    display: inline-block;
+    background-color: #DA6973;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 600px) {
+  i.fa-user {
+    padding: .8rem;
+    position: absolute;
+    left: -40px;
+    display: inline-block;
+    background-color: #DA6973;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.profile_details {
+  border-bottom: 1px solid;
+}
+
+div.profile_pic {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  div.profile_pic, .profile_pic img {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+  }
+}
+
+
+div.name_container {
+  display: inline-block;
+  margin-left: .8rem;
+}
+
+.profile_text {
+  margin: .5rem .5rem 2rem .5rem;
+}
+
+#programming_skills {
+  list-style: none;
+  padding: 0;
+  margin-right: .75rem;
+  max-width: 90%;
+}
+
+#programming_skills p {
+  font-weight: bold;
+  color: #888;
+  margin: 1rem 0 .2rem 0;
+}
+
+.skill {
+  width: 100%;
+  background-color: #888
+}
+
+.skill_level {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+#methodologies {
+  padding: 0;
+  margin: 0 0 2rem 0;
+  list-style: none;
+}
+
+#methodologies p {
+  font-weight: bold;
+  color: #888;
+  margin: 1rem 1rem .3rem 1rem;
+  display: inline-block;
+  min-width: 60%;
+}
+
+#methodologies span {
+  font-size: .8rem;
+}
+
+.experience_details {
+  margin: 0 1rem 2rem 0;
+}
+
+h3.experience_header {
+ text-transform: uppercase;
+ color: #ffffff;
+ border-radius: 3px 0 0 3px;
+ background-color: #888;
+}
+
+.experience_details h3 i {
+  background-color: #DA6973;
+  padding: .85rem;
+  border-radius: 3px;
+}
+
+p.time, p.location {
+  color: #888;
+  font-weight: bold;
+  margin: 0;
+  font-size: .8rem;
+}
+
+p.time {
+  margin-top: 1.5rem;
+}
+
+p.location {
+  margin-bottom: .3rem;
+}
+
+.professional_experience ul {
+  padding-left: 2.2rem;
+}
+
+#last_employment {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1000px) {
+  #experience_details {
+    display: inline-block;
+    max-width: 65%;
+    vertical-align: top;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  #skill_details {
+    display: inline-block;
+    min-width: 275px;
+    vertical-align: top;
+    border-bottom: none;
+    margin-top: 60px
+  }
+}
