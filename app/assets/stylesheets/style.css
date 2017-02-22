@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1em;
   background-color: #232C33;
   color: #d0cdb0;
@@ -24,6 +25,7 @@ body {
 }*/
 
 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 1.3rem 0 0 0;
   line-height: 1em;
   text-transform: uppercase;
@@ -31,16 +33,24 @@ h1 {
 }
 
 h2 {
+  font-family: 'Roboto Condensed', sans-serif;
   color: #DA6973;
   margin: 0 0 .3rem 0;
 }
 
+h3 {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.5rem;
+}
+
 h4 {
+  font-family: 'Droid Serif', serif;
   margin: 0 1rem;
   font-size: 1.5rem;
 }
 
-h6 {
+h6, a {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0 1rem;
   font-size: 1rem;
   font-style: italic;
@@ -48,16 +58,22 @@ h6 {
   font-weight: normal;
 }
 
+a {
+  margin: 0 .1rem;
+}
+
 h5 {
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   margin: 1.3rem 0 0 0;
   font-size: 1.5em;
 }
 
-.social_media_icons {
+.social_media_icons a{
   padding: 1px;
   margin: 5px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  color: #888;
 }
 
 @media (min-width: 600px) {
@@ -77,10 +93,6 @@ h5 {
   .social_media_icons li {
     margin-left: .3rem;
   }
-}
-
-.social_media_icons a {
-  color: #888;
 }
 
 .components {
@@ -167,6 +179,10 @@ div.name_container {
   margin: .5rem .5rem 2rem .5rem;
 }
 
+.project_bullets li{
+  margin-left: 2rem;
+}
+
 #programming_skills {
   list-style: none;
   padding: 0;
@@ -215,15 +231,15 @@ div.name_container {
 }
 
 h3.experience_header {
- text-transform: uppercase;
- color: #ffffff;
- border-radius: 3px 0 0 3px;
- background-color: #888;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 3px 0 0 3px;
+  background-color: #888;
 }
 
 .experience_details h3 i {
   background-color: #DA6973;
-  padding: .85rem;
+  padding: .8rem;
   border-radius: 3px;
 }
 
@@ -247,6 +263,10 @@ p.location {
 }
 
 #last_employment {
+  margin-bottom: 2rem;
+}
+
+#last_project {
   margin-bottom: 2rem;
 }
 
